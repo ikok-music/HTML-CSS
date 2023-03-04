@@ -36,7 +36,7 @@ header .heading {
 
 .main {
   width: 800px; /* 横幅800px */
-  display: flex; /* Flexboxの利用 */
+  display: flex;
   flex-wrap: wrap;
   margin: 50px auto; /* 中央寄せ（左右に余白がないとできない） */
 }
