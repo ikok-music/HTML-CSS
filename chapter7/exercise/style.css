@@ -1,0 +1,61 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 400px; /* 高さ400px */
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: bottom; /* 背景画像を中央に配置 */
+}
+
+.main-visual-content {
+  padding: 20px;
+}
+
+.main-visual-text {
+  color: #fff; /* 文字色を白に変更 */
+}
+
+.main-visual-name {
+  margin-top: 30px; /* 上側の外側の余白 */
+  color: #fff; /* 文字色を白に変更 */
+}
+
+main {
+  width: 840px; /* 横幅840px */
+  margin: 50px auto; /* 要素の中央揃え */
+}
+
+.blog-item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.blog-text {
+  padding: 25px 0 0 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
