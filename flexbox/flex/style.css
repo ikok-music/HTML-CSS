@@ -7,12 +7,12 @@
 }
 
 .flex {
-  display: flex;
   background-color: #00c7ce;
+  height: 50vh;
+  padding: 10px;
 }
 .flex > div {
-  width: 33%;
-  height: 300px;
-  margin: 10px;
   background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
 }
